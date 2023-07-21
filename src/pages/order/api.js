@@ -1,0 +1,71 @@
+export const columns = [
+    {
+        title: 'Đơn hàng',
+        dataIndex: 'order',
+        key: 'order',
+        padding: '10px 10px',
+        width: '230px',
+    },
+    {
+        title: 'Ngày',
+        dataIndex: 'date',
+        key: 'date',
+        padding: '10px 10px',
+        width: '130px',
+    },
+    {
+        title: 'Tình trạng',
+        dataIndex: 'status',
+        key: 'status',
+        padding: '10px 10px',
+        width: '175px',
+    },
+    {
+        title: 'Địa chỉ',
+        dataIndex: 'address',
+        key: 'address',
+        padding: '10px 10px',
+    },
+    {
+        title: 'Tổng',
+        dataIndex: 'total',
+        key: 'total',
+        padding: '10px 10px',
+    },
+    {
+        title: 'Các thao tác',
+        dataIndex: 'actions',
+        key: 'actions',
+        padding: '10px 10px',
+        width: '160px',
+    },
+];
+export const data = [
+    {
+        key: '1',
+        order: '#5481 - Thanh Minh Pham',
+        date: 'Th7 22, 2022',
+        status: 'Chờ thanh toán',
+        address: 'Thủy Cao, Số 84. Tổ 4. Thị trấn An Dương. Huyện An Dương. Hải Phòng',
+        total: '360.000đ',
+        actions: '',
+    },
+    {
+        key: '2',
+        order: '#5481 - Thanh Minh Pham',
+        date: 'Th7 22, 2022',
+        status: 'Chờ thanh toán',
+        address: 'Thủy Cao, Số 84. Tổ 4. Thị trấn An Dương. Huyện An Dương. Hải Phòng',
+        total: '360.000đ',
+        actions: '',
+    },
+    {
+        key: '3',
+        order: '#5481 - Thanh Minh Pham',
+        date: 'Th7 22, 2022',
+        status: 'Chờ thanh toán',
+        address: 'Thủy Cao, Số 84. Tổ 4. Thị trấn An Dương. Huyện An Dương. Hải Phòng',
+        total: '360.000đ',
+        actions: '',
+    },
+];

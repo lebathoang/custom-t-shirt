@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Layout, Space, Affix } from 'antd';
 import { Link } from 'react-router-dom';
 import { headerStyle, contentStyle, button, scrollableContainer } from '~/pages/styles.js';
-import Sidebar from '~/pages/sidebar'
+import Sidebar from '~/components/layouts/sidebar'
 
 const { Header, Content } = Layout;
 

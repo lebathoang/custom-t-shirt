@@ -4,7 +4,7 @@ import Order from '~/pages/order'
 import Product from '~/pages/product'
 import Detail from '~/pages/detail'
 import Gallery from '~/pages/gallery'
-import CreateNewProduct from './pages/createNewProduct';
+import CreateNewProduct from './pages/create_new_product';
 
 function App() {
   return (

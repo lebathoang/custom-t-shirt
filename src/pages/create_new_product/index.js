@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout, Space } from 'antd';
 import Main from './main.js';
-import Sidebar from '~/pages/sidebar'
+import Sidebar from '~/components/layouts/sidebar/index.js'
 
 const CreateNewProduct = () => {
     return (

@@ -8,7 +8,7 @@ import {
     headerStyle,
     scrollableContainer,
 } from '~/pages/styles.js';
-import { columns, data } from './api.js';
+import { columns, data } from './mock.js';
 
 const { Header, Content } = Layout;
 

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Layout, Space, Table, Affix } from 'antd';
-import { columns, data } from './api.js';
+import { columns, data } from './mock.js';
 import { headerStyle, contentStyle, tableStyle, scrollableContainer } from '~/pages/styles.js';
-import Sidebar from '~/pages/sidebar'
+import Sidebar from '~/components/layouts/sidebar/index.js'
 
 const { Header, Content } = Layout;
 
